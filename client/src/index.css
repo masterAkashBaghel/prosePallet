@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Be+Vietnam+Pro:ital,wght@1,200;1,900&family=Rubik:wght@300&family=Ubuntu&display=swap');
+
+.head1{
+   font-family: sans-serif,Roboto ;
+   font-weight: 300;
+   size: 52px;
+   line-height: 86px;
+}
+
+.create-section {
+  flex: 0 0 35%; /* 50% width for create section */
+  overflow: hidden; /* Prevent scrolling in create section */
+   
+}
